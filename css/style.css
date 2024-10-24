@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: justify;
+    justify-content: center;
     background-color: black;
 }
 .greetings{
@@ -22,26 +22,43 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #ff03a2, 0 0 50px #ff03a2, 0 0 100px #39c6d6;
     }
     10%, 90%{
         color: #111;
         text-shadow: none;
     }
 }
-.greetings > span:nth-child(2){ 
+.greetings > span:nth-child(2){ /*A*/
     animation-delay: .2s ;
 }
-.greetings > span:nth-child(3){
+.greetings > span:nth-child(3){ /*N*/
     animation-delay: .4s ;
 }
-.greetings > span:nth-child(4){
+.greetings > span:nth-child(4){ /*N*/
     animation-delay: .6s;
 }
-.greetings > span:nth-child(5){
+.greetings > span:nth-child(5){/*Y*/
     animation-delay: .8s;
 }
-
+.greetings > span:nth-child(6){/*E*/
+    animation-delay: 1s;
+}
+.greetings > span:nth-child(7){ /*O*/
+    animation-delay: 1.2s;
+}  
+.greetings > span:nth-child(8){ /*N*/
+    animation-delay: 1.4s;
+}
+.greetings > span:nth-child(9){ /*G*/
+    animation-delay: 1.6s;
+}
+.greetings > span:nth-child(10){ /*!*/
+    animation-delay: 1.8s;
+}
+.greetings > span:nth-child(11){ /*!*/
+    animation-delay: 2s;
+}
 
 .greetingss{
     font-size: 6rem;
@@ -53,30 +70,27 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #ff03a2, 0 0 50px #ff03a2, 0 0 100px #39c6d6;
     }
     10%, 90%{
         color: #111;
         text-shadow: none;
     }
 }
-.greetingss > span:nth-child(2){ 
+.greetingss > span:nth-child(2){ /*n*/
     animation-delay: .2s ;
 }
-.greetingss > span:nth-child(3){
+.greetingss > span:nth-child(3){ /*a*/
     animation-delay: .4s ;
 }
-.greetingss > span:nth-child(4){
+.greetingss > span:nth-child(4){ /*u*/
     animation-delay: .6s;
 }
-.greetingss > span:nth-child(5){
+.greetingss > span:nth-child(5){ /*r*/
     animation-delay: .8s;
 }
-.greetingss > span:nth-child(6){
-    animation-delay: .10s;
-}
-.greetingss > span:nth-child(7){
-    animation-delay: .1.2s;
+.greetingss > span:nth-child(6){ /*a*/
+    animation-delay: 1s;
 }
 
 .description{
