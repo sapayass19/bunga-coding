@@ -92,6 +92,9 @@ body{
 .greetingss > span:nth-child(6){ /*a*/
     animation-delay: 1s;
 }
+.greetingss > span:nth-child(7){ /*a*/
+    animation-delay: 1.2s;
+}
 
 .description{
     font-size: 1.5rem;
